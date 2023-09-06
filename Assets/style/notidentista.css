@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+    text-align: center;
+
+}
+div{
+    border: 1px solid black;
+}
+
+
+@media(min-width: 500px) and (max-width:1024px){
+    body{
+        background-color: blue;
+    }
+
+}
+
+/*
+Se pueden hacer cambios en la responsividad utililizando media querys
+se ejecuta solo cuando cumplen ciertas condiciones. condiciones relacionados con las caracteristicas de nuestros dispositivos
+
+la sintaxis de una media query 
+@media(parametros o condiciones a cumplir)
+estilos que se ajustan cuando se cumple la condición
+
+*/
